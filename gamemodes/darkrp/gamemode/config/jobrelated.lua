@@ -193,10 +193,10 @@ TEAM_HOBO = DarkRP.createJob("Hobo", {
         Beg for your food and money
         Sing for everyone who passes to get money
         Make your own wooden home somewhere in a corner or outside someone else's door]],
-    weapons = {"weapon_bugbait"},
+    weapons = {"weapon_pistol"},
     command = "hobo",
     max = 5,
-    salary = 0,
+    salary = 100,
     admin = 0,
     vote = false,
     hasLicense = false,
