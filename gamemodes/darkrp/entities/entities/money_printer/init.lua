@@ -97,7 +97,7 @@ end
 function ENT:CreateMoneybag()
     if self:IsOnFire() then return end
 
-    local amount = self.MoneyCount or (GAMEMODE.Config.mprintamount ~= 0 and GAMEMODE.Config.mprintamount or 250)
+    local amount = self.MoneyCount or (GAMEMODE.Config.mprintamount ~= 0 and GAMEMODE.Config.mprintamount or 9999)
     local prevent, hookAmount = hook.Run("moneyPrinterPrintMoney", self, amount)
     if prevent == true then return end
 
